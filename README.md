@@ -1,5 +1,5 @@
 s3eAdNinja
-(AdMob Mediation extension)
+(Ad Mediation extension for 7 networks)
 (android is supported, iOS support will be added soon)
 
 -----------------------------------------------------------
