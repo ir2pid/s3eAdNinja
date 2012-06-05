@@ -1,0 +1,441 @@
+Archive member included because of file (symbol)
+
+C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+                              release\s3eAdNinja_platform.os (s3eEdkThreadRunOnOS)
+
+Discarded input sections
+
+ _ZN7_JNIEnv13CallIntMethodEP8_jobjectP10_jmethodIDz
+                0x00000000        0x0 release\s3eAdNinja_platform.os
+ _ZN7_JNIEnv9NewObjectEP7_jclassP10_jmethodIDz
+                0x00000000        0x0 release\s3eAdNinja_platform.os
+ .text          0x00000000        0x0 release\s3eAdNinja_platform.os
+ .data          0x00000000        0x0 release\s3eAdNinja_platform.os
+ .note.GNU-stack
+                0x00000000        0x0 release\s3eAdNinja_platform.os
+ .text          0x00000000        0x0 release\s3eAdNinja.os
+ .data          0x00000000        0x0 release\s3eAdNinja.os
+ .bss           0x00000000        0x0 release\s3eAdNinja.os
+ .note.GNU-stack
+                0x00000000        0x0 release\s3eAdNinja.os
+ .text          0x00000000        0x0 release\s3eAdNinja_register.os
+ .data          0x00000000        0x0 release\s3eAdNinja_register.os
+ .bss           0x00000000        0x0 release\s3eAdNinja_register.os
+ .text._Z21s3eAdNinjaRegisterExtv
+                0x00000000        0x0 release\s3eAdNinja_register.os
+ .note.GNU-stack
+                0x00000000        0x0 release\s3eAdNinja_register.os
+ .text          0x00000000        0x0 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .data          0x00000000        0x0 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .bss           0x00000000        0x0 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .text.s3eEdkThreadRunOnOSAsync
+                0x00000000        0x0 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .ARM.extab.text.s3eEdkThreadRunOnOSAsync
+                0x00000000        0x0 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .ARM.exidx.text.s3eEdkThreadRunOnOSAsync
+                0x00000000        0x0 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .text.s3eEdkErrorSetString
+                0x00000000        0x0 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .ARM.extab.text.s3eEdkErrorSetString
+                0x00000000        0x0 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .ARM.exidx.text.s3eEdkErrorSetString
+                0x00000000        0x0 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD release\s3eAdNinja_platform.os
+LOAD release\s3eAdNinja.os
+LOAD release\s3eAdNinja_register.os
+LOAD C:\marmalade\6.0\s3e\edk\lib\android\libedk.a
+LOAD C:\marmalade\6.0\s3e\edk\lib\android/libplaceholderplaceholderplaceholderplaceholderplaceholder.so
+LOAD C:\android-ndk-r7c\platforms\android-9\arch-arm\usr\lib/libc.so
+LOAD C:\android-ndk-r7c\platforms\android-9\arch-arm\usr\lib/libm.so
+LOAD C:\android-ndk-r7c\platforms\android-9\arch-arm\usr\lib/liblog.so
+LOAD C:\android-ndk-r7c\platforms\android-9\arch-arm\usr\lib/libstdc++.so
+LOAD C:/android-ndk-r7c/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a
+                0x000000d4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000d4       0xa4
+ *(.hash)
+ .hash          0x000000d4       0xa4 release\s3eAdNinja_platform.os
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000178      0x160
+ *(.dynsym)
+ .dynsym        0x00000178      0x160 release\s3eAdNinja_platform.os
+
+.dynstr         0x000002d8      0x15b
+ *(.dynstr)
+ .dynstr        0x000002d8      0x15b release\s3eAdNinja_platform.os
+
+.gnu.version    0x00000434        0x0 load address 0x00000433
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 release\s3eAdNinja_platform.os
+
+.gnu.version_d  0x00000434        0x0 load address 0x00000433
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 release\s3eAdNinja_platform.os
+
+.gnu.version_r  0x00000434        0x0 load address 0x00000433
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 release\s3eAdNinja_platform.os
+
+.rel.dyn        0x00000434       0x30
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00000434       0x30 release\s3eAdNinja_platform.os
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+
+.rela.dyn
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+
+.rel.plt        0x00000464       0x28
+ *(.rel.plt)
+ .rel.plt       0x00000464       0x28 release\s3eAdNinja_platform.os
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt            0x0000048c       0x50
+ *(.plt)
+ .plt           0x0000048c       0x50 release\s3eAdNinja_platform.os
+
+.text           0x000004dc      0x728
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text._Z28s3eAdNinjaTerminate_platformv
+                0x000004dc        0x4 release\s3eAdNinja_platform.os
+                0x000004dc                s3eAdNinjaTerminate_platform()
+ .text._ZN7_JNIEnv13CallIntMethodEP8_jobjectP10_jmethodIDz
+                0x000004e0       0x38 release\s3eAdNinja_platform.os
+                0x000004e0                _JNIEnv::CallIntMethod(_jobject*, _jmethodID*, ...)
+ .text._ZN7_JNIEnv9NewObjectEP7_jclassP10_jmethodIDz
+                0x00000518       0x38 release\s3eAdNinja_platform.os
+                0x00000518                _JNIEnv::NewObject(_jclass*, _jmethodID*, ...)
+ .text._Z23s3eAdNinjaInit_platformv
+                0x00000550      0x240 release\s3eAdNinja_platform.os
+                0x00000550                s3eAdNinjaInit_platform()
+ .text._Z33s3eAdNinjaRequestFreshAd_platformv
+                0x00000790       0x58 release\s3eAdNinja_platform.os
+                0x00000790                s3eAdNinjaRequestFreshAd_platform()
+ .text._Z23s3eAdNinjaHide_platformv
+                0x000007e8       0x58 release\s3eAdNinja_platform.os
+                0x000007e8                s3eAdNinjaHide_platform()
+ .text._Z23s3eAdNinjaShow_platformv
+                0x00000840       0x58 release\s3eAdNinja_platform.os
+                0x00000840                s3eAdNinjaShow_platform()
+ .text._Z24s3eAdNinjaStart_platformPKc
+                0x00000898       0x7c release\s3eAdNinja_platform.os
+                0x00000898                s3eAdNinjaStart_platform(char const*)
+ .text._ZL27s3eEdkAndroidFindClass_realPKc
+                0x00000914       0xa0 release\s3eAdNinja_platform.os
+ .text.s3eAdNinjaHide
+                0x000009b4       0x10 release\s3eAdNinja.os
+                0x000009b4                s3eAdNinjaHide
+ .text.s3eAdNinjaShow
+                0x000009c4       0x10 release\s3eAdNinja.os
+                0x000009c4                s3eAdNinjaShow
+ .text.s3eAdNinjaRequestFreshAd
+                0x000009d4       0x10 release\s3eAdNinja.os
+                0x000009d4                s3eAdNinjaRequestFreshAd
+ .text.s3eAdNinjaStart
+                0x000009e4       0x10 release\s3eAdNinja.os
+                0x000009e4                s3eAdNinjaStart
+ .text._Z19s3eAdNinjaTerminatev
+                0x000009f4       0x10 release\s3eAdNinja.os
+                0x000009f4                s3eAdNinjaTerminate()
+ .text._Z14s3eAdNinjaInitv
+                0x00000a04       0x10 release\s3eAdNinja.os
+                0x00000a04                s3eAdNinjaInit()
+ .text._ZL19s3eAdNinjaHide_wrapv
+                0x00000a14       0x20 release\s3eAdNinja_register.os
+ .text._ZL19s3eAdNinjaShow_wrapv
+                0x00000a34       0x20 release\s3eAdNinja_register.os
+ .text._ZL29s3eAdNinjaRequestFreshAd_wrapv
+                0x00000a54       0x20 release\s3eAdNinja_register.os
+ .text._ZL20s3eAdNinjaStart_wrapPKc
+                0x00000a74       0x24 release\s3eAdNinja_register.os
+ .text.s3eAdNinjaUnRegister
+                0x00000a98       0x34 release\s3eAdNinja_register.os
+                0x00000a98                s3eAdNinjaUnRegister
+ .text.s3eAdNinjaRegister
+                0x00000acc       0x38 release\s3eAdNinja_register.os
+                0x00000acc                s3eAdNinjaRegister
+ .text.RegisterExt
+                0x00000b04       0xd0 release\s3eAdNinja_register.os
+                0x00000b04                RegisterExt
+ .text.s3eEdkThreadRunOnOS
+                0x00000bd4       0x30 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+                0x00000bd4                s3eEdkThreadRunOnOS
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.fini
+ *(.fini)
+                0x00000c04                PROVIDE (__etext, .)
+                0x00000c04                PROVIDE (_etext, .)
+                0x00000c04                PROVIDE (etext, .)
+
+.rodata         0x00000c04       0x80
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x00000c04       0x80 release\s3eAdNinja_platform.os
+ .rodata.str1.4
+                0x00000000        0xc release\s3eAdNinja_register.os
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab      0x00000c84        0xc
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab.text.s3eEdkThreadRunOnOS
+                0x00000c84        0xc C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+                0x00000c90                __exidx_start = .
+
+.ARM.exidx      0x00000c90        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx.text.s3eEdkThreadRunOnOS
+                0x00000c90        0x8 C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+                0x00000c98                __exidx_end = .
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+                0x00000c98                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00001c98                . = (0x1000 DATA_SEGMENT_ALIGN 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+
+.fini_array
+ *(.fini_array)
+ *(SORT(.fini_array.*))
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x00001c98       0xa8
+ *(.dynamic)
+ .dynamic       0x00001c98       0xa8 release\s3eAdNinja_platform.os
+                0x00001c98                _DYNAMIC
+                0x00001d40                . = (. DATA_SEGMENT_RELRO_END 0x0)
+
+.got            0x00001d40       0x38
+ *(.got.plt)
+ .got.plt       0x00001d40       0x20 release\s3eAdNinja_platform.os
+                0x00001d40                _GLOBAL_OFFSET_TABLE_
+ *(.got)
+ .got           0x00001d60       0x18 release\s3eAdNinja_platform.os
+
+.data           0x00001d78        0x0
+                0x00001d78                __data_start = .
+ *(.data .data.* .gnu.linkonce.d.*)
+
+.data1
+ *(.data1)
+                0x00001d78                _edata = .
+                0x00001d78                PROVIDE (edata, .)
+                0x00001d78                __bss_start = .
+                0x00001d78                __bss_start__ = .
+
+.bss            0x00001d78       0x14
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 release\s3eAdNinja_platform.os
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00001d78       0x14 release\s3eAdNinja_platform.os
+ *(COMMON)
+                0x00001d8c                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00001d8c                _bss_end__ = .
+                0x00001d8c                __bss_end__ = .
+                0x00001d8c                . = ALIGN (0x4)
+                0x00001d8c                . = ALIGN (0x4)
+                0x00001d8c                __end__ = .
+                0x00001d8c                _end = .
+                0x00001d8c                PROVIDE (end, .)
+                0x00001d8c                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x61
+ *(.comment)
+ .comment       0x00000000       0x12 release\s3eAdNinja_platform.os
+ .comment       0x00000012       0x12 release\s3eAdNinja.os
+ .comment       0x00000024       0x12 release\s3eAdNinja_register.os
+ .comment       0x00000036       0x2b C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+OUTPUT(D:\s3eadninja\extension\s3eadninja\lib\android\libs3eAdNinja.so elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x2a
+ .ARM.attributes
+                0x00000000       0x28 release\s3eAdNinja_platform.os
+ .ARM.attributes
+                0x00000028       0x28 release\s3eAdNinja.os
+ .ARM.attributes
+                0x00000050       0x28 release\s3eAdNinja_register.os
+ .ARM.attributes
+                0x00000078       0x2c C:\marmalade\6.0\s3e\edk\lib\android\libedk.a(edk_helpers.o)

@@ -1,0 +1,19 @@
+callbacks
+
+include:
+#include <s3eTypes.h>
+
+enum s3eAdNinjaCallback
+{
+	S3E_ADNINJA_CALLBACK_AD_LOAD,
+	S3E_ADNINJA_CALLBACK_AD_FAIL,
+	S3E_ADNINJA_CALLBACK_FULLSCREEN_BEGIN,
+	S3E_ADNINJA_CALLBACK_FULLSCREEN_END,
+	S3E_ADNINJA_CALLBACK_MAX
+};
+
+functions:
+s3eResult s3eAdNinjaStart(const char* appKey) S3E_RESULT_ERROR run_on_os_thread
+s3eResult s3eAdNinjaRequestFreshAd() S3E_RESULT_ERROR run_on_os_thread
+s3eResult s3eAdNinjaShow() S3E_RESULT_ERROR run_on_os_thread
+s3eResult s3eAdNinjaHide() S3E_RESULT_ERROR run_on_os_thread
