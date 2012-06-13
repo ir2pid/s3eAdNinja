@@ -1,0 +1,187 @@
+# 1 "C:\\marmalade\\6.0\\extensions\\s3eadninja\\source\\generic\\s3eAdNinja.cpp"
+# 1 "c:\\marmalade\\6.0\\extensions\\s3eadninja\\build_s3eadninja_android_linux_scons_arm//"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "./temp_defines_debug.h" 1
+# 1 "<command-line>" 2
+# 1 "C:\\marmalade\\6.0\\extensions\\s3eadninja\\source\\generic\\s3eAdNinja.cpp"
+# 13 "C:\\marmalade\\6.0\\extensions\\s3eadninja\\source\\generic\\s3eAdNinja.cpp"
+# 1 "../source/h/s3eAdNinja_internal.h" 1
+# 18 "../source/h/s3eAdNinja_internal.h"
+# 1 "../../../s3e/h/s3eTypes.h" 1
+# 37 "../../../s3e/h/s3eTypes.h"
+typedef unsigned char s3e_uint8_t;
+typedef signed char s3e_int8_t;
+typedef unsigned short int s3e_uint16_t;
+typedef signed short int s3e_int16_t;
+typedef unsigned int s3e_uint32_t;
+typedef signed int s3e_int32_t;
+# 51 "../../../s3e/h/s3eTypes.h"
+  typedef signed long long s3e_int64_t;
+  typedef unsigned long long s3e_uint64_t;
+# 74 "../../../s3e/h/s3eTypes.h"
+typedef s3e_uint64_t uint64_t;
+typedef s3e_int64_t int64_t;
+typedef s3e_uint32_t uint32_t;
+typedef s3e_int32_t int32_t;
+typedef s3e_uint16_t uint16_t;
+typedef s3e_int16_t int16_t;
+typedef s3e_uint8_t uint8_t;
+typedef s3e_int8_t int8_t;
+# 96 "../../../s3e/h/s3eTypes.h"
+    typedef int intptr_t;
+    typedef unsigned int uintptr_t;
+# 108 "../../../s3e/h/s3eTypes.h"
+typedef unsigned int uint;
+typedef unsigned short int ushort;
+typedef unsigned long int ulong;
+typedef unsigned char uint8;
+typedef signed char int8;
+
+
+
+
+
+
+
+typedef int64_t int64;
+typedef uint64_t uint64;
+
+
+
+
+
+typedef unsigned int uint32;
+
+
+
+
+
+
+typedef signed int int32;
+
+
+
+
+
+
+typedef uint16_t uint16;
+
+
+
+
+typedef int16_t int16;
+# 226 "../../../s3e/h/s3eTypes.h"
+typedef enum s3eResult
+{
+    S3E_RESULT_SUCCESS = 0,
+    S3E_RESULT_ERROR = 1
+} s3eResult;
+
+
+
+
+typedef uint8 s3eBool;
+# 246 "../../../s3e/h/s3eTypes.h"
+typedef unsigned short s3eWChar;
+# 256 "../../../s3e/h/s3eTypes.h"
+typedef int32 (*s3eCallback) (void* systemData, void* userData);
+# 19 "../source/h/s3eAdNinja_internal.h" 2
+# 1 "../h/s3eAdNinja.h" 1
+# 21 "../h/s3eAdNinja.h"
+enum s3eAdNinjaCallback
+{
+ S3E_ADNINJA_CALLBACK_AD_LOAD,
+ S3E_ADNINJA_CALLBACK_AD_FAIL,
+ S3E_ADNINJA_CALLBACK_FULLSCREEN_BEGIN,
+ S3E_ADNINJA_CALLBACK_FULLSCREEN_END,
+ S3E_ADNINJA_CALLBACK_MAX
+};
+
+extern "C" {
+
+
+
+
+
+s3eBool s3eAdNinjaAvailable();
+# 53 "../h/s3eAdNinja.h"
+s3eResult s3eAdNinjaRegister(s3eAdNinjaCallback cbid, s3eCallback fn, void* userData);
+# 67 "../h/s3eAdNinja.h"
+s3eResult s3eAdNinjaUnRegister(s3eAdNinjaCallback cbid, s3eCallback fn);
+
+s3eResult s3eAdNinjaStart(const char* appKey);
+
+s3eResult s3eAdNinjaRequestFreshAd();
+
+s3eResult s3eAdNinjaShow();
+
+s3eResult s3eAdNinjaHide();
+
+}
+# 20 "../source/h/s3eAdNinja_internal.h" 2
+# 1 "../source/h/s3eAdNinja_autodefs.h" 1
+# 21 "../source/h/s3eAdNinja_internal.h" 2
+
+
+
+
+
+
+
+s3eResult s3eAdNinjaInit();
+
+
+
+
+s3eResult s3eAdNinjaInit_platform();
+
+
+
+
+
+void s3eAdNinjaTerminate();
+
+
+
+
+void s3eAdNinjaTerminate_platform();
+s3eResult s3eAdNinjaStart_platform(const char* appKey);
+
+s3eResult s3eAdNinjaRequestFreshAd_platform();
+
+s3eResult s3eAdNinjaShow_platform();
+
+s3eResult s3eAdNinjaHide_platform();
+# 14 "C:\\marmalade\\6.0\\extensions\\s3eadninja\\source\\generic\\s3eAdNinja.cpp" 2
+s3eResult s3eAdNinjaInit()
+{
+
+    return s3eAdNinjaInit_platform();
+}
+
+void s3eAdNinjaTerminate()
+{
+
+    s3eAdNinjaTerminate_platform();
+}
+
+s3eResult s3eAdNinjaStart(const char* appKey)
+{
+ return s3eAdNinjaStart_platform(appKey);
+}
+
+s3eResult s3eAdNinjaRequestFreshAd()
+{
+ return s3eAdNinjaRequestFreshAd_platform();
+}
+
+s3eResult s3eAdNinjaShow()
+{
+ return s3eAdNinjaShow_platform();
+}
+
+s3eResult s3eAdNinjaHide()
+{
+ return s3eAdNinjaHide_platform();
+}
